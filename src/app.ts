@@ -5,7 +5,6 @@ import { userAgent } from 'koa-useragent';
 import path from 'path';
 import { Server } from 'http';
 import router from '@/router';
-// import { getLogger, AppLoggers, logLevels } from '@/utils/logger';
 import { serviceMiddleware } from '@/service';
 import { dtsCreator } from '@/models/directus';
 import { errors, errorHandler } from '@/middleware/errors';
@@ -49,7 +48,7 @@ class App {
     this.koa!.context.adminDts = dtsCreator(this.config.directus.url)({
       token: this.config.directus.admin_token
     });
-    /** error - 错误处理插件 */
+    /** error - 错误处理工具 */
     this.koa!.context.errors = errors;
   }
 
