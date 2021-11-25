@@ -1,0 +1,7 @@
+{
+  "port": 8802,
+  "directus": {
+    "url": "?",
+    "admin_token": "?"
+  }
+}

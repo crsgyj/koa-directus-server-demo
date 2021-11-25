@@ -1,0 +1,37 @@
+import { MTYPE_DIRECTUS_PERMISSIONS } from './db/directus_permissions.model';
+import { MTYPE_DIRECTUS_FOLDERS } from './db/directus_folders.model';
+import { MTYPE_DIRECTUS_ACTIVITY } from './db/directus_activity.model';
+import { MTYPE_DIRECTUS_SETTINGS } from './db/directus_settings.model';
+import { MTYPE_DIRECTUS_PRESETS } from './db/directus_presets.model';
+import { MTYPE_DIRECTUS_DASHBOARDS } from './db/directus_dashboards.model';
+import { MTYPE_DIRECTUS_FILES } from './db/directus_files.model';
+import { MTYPE_DIRECTUS_USERS } from './db/directus_users.model';
+import { MTYPE_DIRECTUS_PANELS } from './db/directus_panels.model';
+import { MTYPE_DIRECTUS_MIGRATIONS } from './db/directus_migrations.model';
+import { MTYPE_DIRECTUS_RELATIONS } from './db/directus_relations.model';
+import { MTYPE_DIRECTUS_WEBHOOKS } from './db/directus_webhooks.model';
+import { MTYPE_DIRECTUS_FIELDS } from './db/directus_fields.model';
+import { MTYPE_DIRECTUS_COLLECTIONS } from './db/directus_collections.model';
+import { MTYPE_DIRECTUS_ROLES } from './db/directus_roles.model';
+import { MTYPE_DIRECTUS_REVISIONS } from './db/directus_revisions.model';
+import { MTYPE_DIRECTUS_SESSIONS } from './db/directus_sessions.model';
+
+export type ModelMap = {
+  directus_permissions: MTYPE_DIRECTUS_PERMISSIONS;
+  directus_activity: MTYPE_DIRECTUS_ACTIVITY;
+  directus_settings: MTYPE_DIRECTUS_SETTINGS;
+  directus_presets: MTYPE_DIRECTUS_PRESETS;
+  directus_dashboards: MTYPE_DIRECTUS_DASHBOARDS;
+  directus_files: MTYPE_DIRECTUS_FILES;
+  directus_users: MTYPE_DIRECTUS_USERS;
+  directus_panels: MTYPE_DIRECTUS_PANELS;
+  directus_folders: MTYPE_DIRECTUS_FOLDERS;
+  directus_migrations: MTYPE_DIRECTUS_MIGRATIONS;
+  directus_sessions: MTYPE_DIRECTUS_SESSIONS;
+  directus_relations: MTYPE_DIRECTUS_RELATIONS;
+  directus_webhooks: MTYPE_DIRECTUS_WEBHOOKS;
+  directus_fields: MTYPE_DIRECTUS_FIELDS;
+  directus_collections: MTYPE_DIRECTUS_COLLECTIONS;
+  directus_roles: MTYPE_DIRECTUS_ROLES;
+  directus_revisions: MTYPE_DIRECTUS_REVISIONS;
+};

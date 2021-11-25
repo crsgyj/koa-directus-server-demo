@@ -1,0 +1,10 @@
+{
+  "name": "服务端api",
+  "version": "1.0.0",
+  "description": "接口地址: http://api.example.com",
+  "title": "图澜ERP服务端api",
+  "url" : "http://api.example.com",
+  "template": {
+    "forceLanguage": "zh"
+  }
+}
